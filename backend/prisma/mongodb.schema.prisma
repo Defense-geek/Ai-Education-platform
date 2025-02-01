@@ -1,0 +1,68 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("MONGO_DATABASE_URL") // Replace with your MongoDB connection string
+}
+
+model Module {
+  id       String  @id @default(auto()) @map("_id") @db.ObjectId
+  name     String  // Name of the module
+  lessons  Lesson[]
+}
+
+model Lesson {
+  id        String         @id @default(auto()) @map("_id") @db.ObjectId
+  moduleId  String         @db.ObjectId
+  module    Module         @relation(fields: [moduleId], references: [id])
+  name      String         // Name of the lesson
+  mcqs      Mcq[]          // Array of MCQs for the lesson
+  codingQs  CodingQuestion[] // Array of coding questions for the lesson
+}
+
+model Mcq {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  lessonId       String   @db.ObjectId
+  lesson         Lesson   @relation(fields: [lessonId], references: [id])
+  question       String   // The MCQ question text
+  options        String[] // Array of options for the question
+  isMultiSelect  Boolean  // True if multiple answers can be selected
+  correctAnswers String[] // Array of correct answers
+  difficulty     Int      // Difficulty level (1-5)
+}
+
+model CodingQuestion {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  lessonId         String   @db.ObjectId
+  lesson           Lesson   @relation(fields: [lessonId], references: [id])
+  question         String   // The coding question text
+  difficulty       Int      // Difficulty level (1-5)
+  inputFormat      String   // Input format description
+  outputFormat     String   // Output format description
+  sampleInput      String   // Sample input
+  sampleOutput     String   // Sample output
+  description      String   // Additional question description
+  constraints      String   // Constraints on input/output
+  hiddenTestCases  String[] // Hidden test cases
+  expectedOutputs  String[] // Expected outputs for hidden test cases
+}
+
+model Scoring {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  testId         String   // Unique test ID
+  userIds        String[] // Array of user IDs who took the test
+  questionIds    String[] // Array of answered question IDs
+  answers        String[] // Array of user answers
+  lessonsCovered String[] // Array of lesson IDs covered in the test
+  testCompleted  Boolean  // True if the test is completed
+  scoreObtained  Int      // Score obtained in the test
+}
+
