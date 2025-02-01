@@ -1,0 +1,50 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "flask": "^0.2.10",
+    "formidable": "^3.5.2",
+    "mongodb": "^6.11.0",
+    "next": "15.0.3",
+    "node-fetch": "^3.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "socket.io-client": "^4.8.1",
+    "@clerk/backend": "^1.15.6",
+    "@clerk/nextjs": "^6.2.0",
+    "@clerk/types": "^4.30.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "bcrypt": "^5.1.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.454.0",
+    "react-icons": "^5.3.0",
+    "svix": "^1.37.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/bcrypt": "^5.0.2",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8",
+    "prisma": "^6.0.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

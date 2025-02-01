@@ -1,0 +1,603 @@
+[
+  {
+    "question": "What is the primary goal of Artificial Intelligence?",
+    "options": [
+      "To create intelligent machines",
+      "To make humans more intelligent",
+      "To replace humans",
+      "To increase computational speed"
+    ],
+    "correctAnswer": "To create intelligent machines",
+    "difficulty": 1,
+    "lessonNumber": 1
+  },
+  {
+    "question": "Which of these is not a popular deep learning framework?",
+    "options": [
+      "TensorFlow",
+      "Keras",
+      "NumPy",
+      "PyTorch"
+    ],
+    "correctAnswer": "NumPy",
+    "difficulty": 1,
+    "lessonNumber": 8
+  },
+  {
+    "question": "Which language is not commonly used for AI and machine learning?",
+    "options": [
+      "Python",
+      "R",
+      "Java",
+      "HTML"
+    ],
+    "correctAnswer": "HTML",
+    "difficulty": 1,
+    "lessonNumber": 13
+  },
+  {
+    "question": "Which of the following is an application of AI in healthcare?",
+    "options": [
+      "Autonomous Vehicles",
+      "Predicting Disease Progression",
+      "High-Frequency Trading",
+      "Smart Homes"
+    ],
+    "correctAnswer": "Predicting Disease Progression",
+    "difficulty": 1,
+    "lessonNumber": 7
+  },
+  {
+    "question": "What does NLP stand for in AI?",
+    "options": [
+      "Natural Language Processing",
+      "Neural Learning Process",
+      "Network Logic Processing",
+      "None of the above"
+    ],
+    "correctAnswer": "Natural Language Processing",
+    "difficulty": 1,
+    "lessonNumber": 17
+  },
+  {
+    "question": "Which model architecture is commonly used in image classification tasks?",
+    "options": [
+      "Recurrent Neural Networks",
+      "Convolutional Neural Networks",
+      "Generative Networks",
+      "Bayesian Networks"
+    ],
+    "correctAnswer": "Convolutional Neural Networks",
+    "difficulty": 1,
+    "lessonNumber": 21
+  },
+  {
+    "question": "What is a neural network?",
+    "options": [
+      "A collection of biological neurons",
+      "A software framework for deep learning",
+      "A computational model inspired by human brain",
+      "A physical network of computers"
+    ],
+    "correctAnswer": "A computational model inspired by human brain",
+    "difficulty": 1,
+    "lessonNumber": 2
+  },
+  {
+    "question": "What is the primary function of a convolutional layer in CNNs?",
+    "options": [
+      "To normalize inputs",
+      "To learn spatial hierarchies in data",
+      "To connect nodes",
+      "To generate sequential data"
+    ],
+    "correctAnswer": "To learn spatial hierarchies in data",
+    "difficulty": 1,
+    "lessonNumber": 20
+  },
+  {
+    "question": "Which algorithm is commonly used for supervised learning in AI?",
+    "options": [
+      "K-means Clustering",
+      "Decision Trees",
+      "Genetic Algorithm",
+      "Ant Colony Optimization"
+    ],
+    "correctAnswer": "Decision Trees",
+    "difficulty": 1,
+    "lessonNumber": 3
+  },
+  {
+    "question": "What is 'overfitting' in machine learning?",
+    "options": [
+      "When a model performs well on training data but poorly on new data",
+      "When a model performs well on all data",
+      "When a model cannot train on any data",
+      "When a model is highly accurate on test data"
+    ],
+    "correctAnswer": "When a model performs well on training data but poorly on new data",
+    "difficulty": 1,
+    "lessonNumber": 9
+  },
+    {
+      "question": "Which algorithm is commonly used for supervised learning in AI?",
+      "options": [
+        "K-means Clustering",
+        "Decision Trees",
+        "Genetic Algorithm",
+        "Ant Colony Optimization"
+      ],
+      "correctAnswer": "Decision Trees",
+      "difficulty": 2,
+      "lessonNumber": 3
+    },
+    {
+      "question": "What is deep learning?",
+      "options": [
+        "A subset of machine learning using neural networks",
+        "A form of shallow neural networks",
+        "A type of unsupervised learning",
+        "Only applicable to natural language processing"
+      ],
+      "correctAnswer": "A subset of machine learning using neural networks",
+      "difficulty": 2,
+      "lessonNumber": 4
+    },
+    {
+      "question": "What is a neural network?",
+      "options": [
+        "A collection of biological neurons",
+        "A software framework for deep learning",
+        "A computational model inspired by human brain",
+        "A physical network of computers"
+      ],
+      "correctAnswer": "A computational model inspired by human brain",
+      "difficulty": 2,
+      "lessonNumber": 2
+    },
+    {
+      "question": "What is the purpose of backpropagation?",
+      "options": [
+        "To initialize neural network weights",
+        "To calculate gradients for model training",
+        "To create test datasets",
+        "To normalize data"
+      ],
+      "correctAnswer": "To calculate gradients for model training",
+      "difficulty": 2,
+      "lessonNumber": 12
+    },
+    {
+      "question": "Which algorithm is generally used for classification problems?",
+      "options": [
+        "Random Forest",
+        "K-means Clustering",
+        "Expectation Maximization",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": "Random Forest",
+      "difficulty": 2,
+      "lessonNumber": 11
+    },
+    {
+      "question": "What is the primary function of an activation function in a neural network?",
+      "options": [
+        "To initialize weights",
+        "To define the output of a neuron",
+        "To decrease error",
+        "To process input data"
+      ],
+      "correctAnswer": "To define the output of a neuron",
+      "difficulty": 2,
+      "lessonNumber": 6
+    },
+    {
+      "question": "What is the main difference between supervised and unsupervised learning?",
+      "options": [
+        "Supervised learning uses labeled data, while unsupervised learning uses unlabeled data",
+        "Supervised learning is faster",
+        "Unsupervised learning is more accurate",
+        "Supervised learning requires more data"
+      ],
+      "correctAnswer": "Supervised learning uses labeled data, while unsupervised learning uses unlabeled data",
+      "difficulty": 2,
+      "lessonNumber": 5
+    },
+    {
+      "question": "What is 'bias' in a machine learning model?",
+      "options": [
+        "A preference for a certain outcome",
+        "A systematic error in the model's predictions",
+        "A measure of model complexity",
+        "A tuning parameter"
+      ],
+      "correctAnswer": "A systematic error in the model's predictions",
+      "difficulty": 2,
+      "lessonNumber": 15
+    },
+    {
+      "question": "What is the purpose of the dropout technique in neural networks?",
+      "options": [
+        "To prevent overfitting",
+        "To increase the training speed",
+        "To initialize weights",
+        "To improve data normalization"
+      ],
+      "correctAnswer": "To prevent overfitting",
+      "difficulty": 2,
+      "lessonNumber": 10
+    },
+    {
+      "question": "What does the term 'epoch' refer to in machine learning?",
+      "options": [
+        "The time it takes to train a model",
+        "One full pass through the training dataset",
+        "The time spent on each iteration of training",
+        "A hyperparameter of a model"
+      ],
+      "correctAnswer": "One full pass through the training dataset",
+      "difficulty": 2,
+      "lessonNumber": 13
+    },
+      {
+        "question": "Which type of learning does reinforcement learning belong to?",
+        "options": [
+          "Supervised",
+          "Unsupervised",
+          "Semi-supervised",
+          "None of the above"
+        ],
+        "correctAnswer": "None of the above",
+        "difficulty": 3,
+        "lessonNumber": 5
+      },
+      {
+        "question": "What is the role of an activation function in neural networks?",
+        "options": [
+          "To initialize weights",
+          "To define the output of a neuron",
+          "To decrease error",
+          "To process input data"
+        ],
+        "correctAnswer": "To define the output of a neuron",
+        "difficulty": 3,
+        "lessonNumber": 6
+      },
+      {
+        "question": "What is 'overfitting' in machine learning?",
+        "options": [
+          "When a model performs well on training data but poorly on new data",
+          "When a model performs well on all data",
+          "When a model cannot train on any data",
+          "When a model is highly accurate on test data"
+        ],
+        "correctAnswer": "When a model performs well on training data but poorly on new data",
+        "difficulty": 3,
+        "lessonNumber": 9
+      },
+      {
+        "question": "Which technique is used to prevent overfitting in neural networks?",
+        "options": [
+          "Batch Normalization",
+          "Dropout",
+          "Sigmoid Activation",
+          "Stochastic Gradient Descent"
+        ],
+        "correctAnswer": "Dropout",
+        "difficulty": 3,
+        "lessonNumber": 10
+      },
+      {
+        "question": "What is 'bias' in a machine learning model?",
+        "options": [
+          "A preference for a certain outcome",
+          "A systematic error in the model's predictions",
+          "A measure of model complexity",
+          "A tuning parameter"
+        ],
+        "correctAnswer": "A systematic error in the model's predictions",
+        "difficulty": 3,
+        "lessonNumber": 15
+      },
+      {
+        "question": "Which of these is a popular deep learning framework?",
+        "options": [
+          "TensorFlow",
+          "NumPy",
+          "R",
+          "Jupyter"
+        ],
+        "correctAnswer": "TensorFlow",
+        "difficulty": 3,
+        "lessonNumber": 8
+      },
+      {
+        "question": "Which algorithm is often used for unsupervised learning tasks like clustering?",
+        "options": [
+          "K-means Clustering",
+          "Decision Trees",
+          "Random Forest",
+          "SVM"
+        ],
+        "correctAnswer": "K-means Clustering",
+        "difficulty": 3,
+        "lessonNumber": 4
+      },
+      {
+        "question": "Which of these is a popular NLP model developed by OpenAI?",
+        "options": [
+          "GPT",
+          "BERT",
+          "LSTM",
+          "CNN"
+        ],
+        "correctAnswer": "GPT",
+        "difficulty": 3,
+        "lessonNumber": 18
+      },
+      {
+        "question": "What is the function of a convolutional layer in CNNs?",
+        "options": [
+          "To learn spatial hierarchies in data",
+          "To generate sequential data",
+          "To normalize inputs",
+          "To connect nodes"
+        ],
+        "correctAnswer": "To learn spatial hierarchies in data",
+        "difficulty": 3,
+        "lessonNumber": 20
+      },
+      {
+        "question": "What is the primary purpose of the ReLU activation function in neural networks?",
+        "options": [
+          "To introduce non-linearity",
+          "To prevent overfitting",
+          "To normalize outputs",
+          "To adjust weights"
+        ],
+        "correctAnswer": "To introduce non-linearity",
+        "difficulty": 3,
+        "lessonNumber": 7
+      },
+        {
+          "question": "Which technique is used to prevent overfitting in neural networks?",
+          "options": [
+            "Batch Normalization",
+            "Dropout",
+            "Sigmoid Activation",
+            "Stochastic Gradient Descent"
+          ],
+          "correctAnswer": "Dropout",
+          "difficulty": 4,
+          "lessonNumber": 10
+        },
+        {
+          "question": "What is the purpose of backpropagation?",
+          "options": [
+            "To initialize neural network weights",
+            "To calculate gradients for model training",
+            "To create test datasets",
+            "To normalize data"
+          ],
+          "correctAnswer": "To calculate gradients for model training",
+          "difficulty": 4,
+          "lessonNumber": 12
+        },
+        {
+          "question": "Which concept helps neural networks retain knowledge across tasks?",
+          "options": [
+            "Gradient Descent",
+            "Transfer Learning",
+            "Pooling",
+            "Activation Functions"
+          ],
+          "correctAnswer": "Transfer Learning",
+          "difficulty": 4,
+          "lessonNumber": 14
+        },
+        {
+          "question": "What is a GAN in AI?",
+          "options": [
+            "Generative Artificial Network",
+            "Generative Adversarial Network",
+            "General Artificial Neural network",
+            "Gradient Application Network"
+          ],
+          "correctAnswer": "Generative Adversarial Network",
+          "difficulty": 4,
+          "lessonNumber": 16
+        },
+        {
+          "question": "Which of the following is an advanced AI model architecture for image generation?",
+          "options": [
+            "Convolutional Neural Networks",
+            "Generative Adversarial Networks",
+            "Long Short-Term Memory Networks",
+            "Recurrent Neural Networks"
+          ],
+          "correctAnswer": "Generative Adversarial Networks",
+          "difficulty": 4,
+          "lessonNumber": 17
+        },
+        {
+          "question": "Which of these optimization techniques is typically used in deep learning?",
+          "options": [
+            "Gradient Descent",
+            "Simulated Annealing",
+            "Hill Climbing",
+            "Genetic Algorithm"
+          ],
+          "correctAnswer": "Gradient Descent",
+          "difficulty": 4,
+          "lessonNumber": 11
+        },
+        {
+          "question": "What is the primary advantage of using Transfer Learning?",
+          "options": [
+            "Reduces the need for large labeled datasets",
+            "Improves the speed of learning",
+            "Increases the model's complexity",
+            "Decreases model performance"
+          ],
+          "correctAnswer": "Reduces the need for large labeled datasets",
+          "difficulty": 4,
+          "lessonNumber": 19
+        },
+        {
+          "question": "Which of the following is NOT a commonly used type of deep learning layer?",
+          "options": [
+            "Convolutional Layer",
+            "Fully Connected Layer",
+            "Recursive Layer",
+            "Pooling Layer"
+          ],
+          "correctAnswer": "Recursive Layer",
+          "difficulty": 4,
+          "lessonNumber": 21
+        },
+        {
+          "question": "Which AI model is best suited for time-series data prediction?",
+          "options": [
+            "Convolutional Neural Networks",
+            "Recurrent Neural Networks",
+            "Generative Adversarial Networks",
+            "Support Vector Machines"
+          ],
+          "correctAnswer": "Recurrent Neural Networks",
+          "difficulty": 4,
+          "lessonNumber": 23
+        },
+        {
+          "question": "What is the role of a discriminator in a GAN?",
+          "options": [
+            "To generate fake data",
+            "To differentiate between real and fake data",
+            "To create training data",
+            "To improve model performance"
+          ],
+          "correctAnswer": "To differentiate between real and fake data",
+          "difficulty": 4,
+          "lessonNumber": 16
+        },
+          {
+            "question": "What is the purpose of the vanishing gradient problem in deep learning?",
+            "options": [
+              "To slow down the model's training",
+              "To cause weight updates to become too large",
+              "To prevent the model from learning effectively in deeper layers",
+              "To allow the model to overfit more easily"
+            ],
+            "correctAnswer": "To prevent the model from learning effectively in deeper layers",
+            "difficulty": 5,
+            "lessonNumber": 24
+          },
+          {
+            "question": "What is the primary difference between a traditional neural network and a convolutional neural network (CNN)?",
+            "options": [
+              "CNNs are specialized for processing image data",
+              "Traditional networks use convolutions to process images",
+              "CNNs require no training data",
+              "Traditional networks have more layers than CNNs"
+            ],
+            "correctAnswer": "CNNs are specialized for processing image data",
+            "difficulty": 5,
+            "lessonNumber": 25
+          },
+          {
+            "question": "Which of the following is a key challenge in natural language processing (NLP)?",
+            "options": [
+              "Handling missing data in datasets",
+              "Dealing with the ambiguity and complexity of human language",
+              "Creating deep learning models",
+              "Scaling models for large data sets"
+            ],
+            "correctAnswer": "Dealing with the ambiguity and complexity of human language",
+            "difficulty": 5,
+            "lessonNumber": 26
+          },
+          {
+            "question": "What is the role of attention mechanisms in deep learning models?",
+            "options": [
+              "To focus on important parts of the input data and ignore irrelevant parts",
+              "To make the model more complex",
+              "To help in regularization of the model",
+              "To reduce the model's memory usage"
+            ],
+            "correctAnswer": "To focus on important parts of the input data and ignore irrelevant parts",
+            "difficulty": 5,
+            "lessonNumber": 27
+          },
+          {
+            "question": "What does the 'transformer architecture' in deep learning primarily excel at?",
+            "options": [
+              "Handling sequential data and long-range dependencies",
+              "Performing classification tasks",
+              "Optimizing training with fewer parameters",
+              "Minimizing overfitting"
+            ],
+            "correctAnswer": "Handling sequential data and long-range dependencies",
+            "difficulty": 5,
+            "lessonNumber": 28
+          },
+          {
+            "question": "Which of the following is a disadvantage of using very deep neural networks?",
+            "options": [
+              "They require less data for training",
+              "They are prone to overfitting and slow convergence",
+              "They are easier to interpret",
+              "They require very simple optimization techniques"
+            ],
+            "correctAnswer": "They are prone to overfitting and slow convergence",
+            "difficulty": 5,
+            "lessonNumber": 29
+          },
+          {
+            "question": "What is the role of a hyperparameter in machine learning models?",
+            "options": [
+              "To directly impact the model's performance and behavior",
+              "To define the architecture of the neural network",
+              "To determine the output of a model",
+              "To ensure that the model does not overfit"
+            ],
+            "correctAnswer": "To directly impact the model's performance and behavior",
+            "difficulty": 5,
+            "lessonNumber": 30
+          },
+          {
+            "question": "What is the primary function of a recurrent neural network (RNN)?",
+            "options": [
+              "To process time-series data and sequence data",
+              "To perform classification tasks",
+              "To create embeddings of input data",
+              "To reduce overfitting"
+            ],
+            "correctAnswer": "To process time-series data and sequence data",
+            "difficulty": 5,
+            "lessonNumber": 31
+          },
+          {
+            "question": "What is the most significant advantage of using Generative Adversarial Networks (GANs)?",
+            "options": [
+              "They can generate realistic synthetic data",
+              "They improve data preprocessing",
+              "They require less training data",
+              "They make models simpler"
+            ],
+            "correctAnswer": "They can generate realistic synthetic data",
+            "difficulty": 5,
+            "lessonNumber": 32
+          },
+          {
+            "question": "What is the major challenge in training deep reinforcement learning models?",
+            "options": [
+              "The need for large amounts of labeled data",
+              "The complexity of optimizing the policy function",
+              "The slow convergence of the model",
+              "The lack of sufficient computing power"
+            ],
+            "correctAnswer": "The complexity of optimizing the policy function",
+            "difficulty": 5,
+            "lessonNumber": 33
+          }
+        ]
+        
